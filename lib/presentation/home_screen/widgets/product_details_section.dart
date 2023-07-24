@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:smaple/domain/model/order_model/pickup_detail.dart';
@@ -35,7 +34,7 @@ class ProductDetailsSection extends StatelessWidget {
                     children: [
                       RowItem(
                         value: pickupDetail.pickupRequestItems![0].id!,
-                        title: 'Priduct id: ',
+                        title: 'Product id: ',
                       ),
                       Container(
                         decoration: BoxDecoration(
@@ -97,7 +96,6 @@ class ProductDetailsSection extends StatelessWidget {
     );
   }
 }
-
 
 const kHeightFive = SizedBox(
   height: 5,
