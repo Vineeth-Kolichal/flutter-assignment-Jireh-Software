@@ -30,7 +30,11 @@ class HomeScreen extends StatelessWidget {
               ),
             );
           }
-          log('${state.picupDetails[0].toJson()}');
+          if (state.hasError) {
+            return const Center(
+              child: Text('Error while loading data'),
+            );
+          }
           return Padding(
             padding: const EdgeInsets.all(10.0),
             child: ListView(children: [
