@@ -1,6 +1,6 @@
 # smaple
 
-A new Flutter project.!
+This is the coding task given by Magadh Digital Solutions Pvt Ltd.
 
 
 ## Getting Started
